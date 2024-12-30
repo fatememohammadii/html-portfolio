@@ -1,0 +1,94 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFE7; /* Krem Beyaz Arka Plan */
+    color: #3E5879; /* Orta Lacivert Yazı */
+}
+
+/* Başlıklar */
+h1 {
+    background-color: #213555; /* Koyu Lacivert */
+    color: #F5EFE7; /* Krem Beyaz */
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+    border-bottom: 5px solid #D8C4B6; /* Açık Turkuaz */
+}
+
+/* Navigasyon Menüsü */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #3E5879; /* Orta Lacivert */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F5EFE7; /* Krem Beyaz */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #D8C4B6; /* Açık Turkuaz */
+}
+
+/* İçerik */
+p, ul, table {
+    width: 80%;
+    margin: 20px auto;
+    color: #3E5879; /* Orta Lacivert */
+}
+
+/* Görseller */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border: 5px solid #D8C4B6; /* Açık Turkuaz Çerçeve */
+    border-radius: 10px;
+}
+
+/* Tablo */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table th, table td {
+    border: 1px solid #D8C4B6; /* Açık Turkuaz */
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #3E5879; /* Orta Lacivert */
+    color: #F5EFE7; /* Krem Beyaz */
+}
+
+table td {
+    background-color: #D8C4B6; /* Açık Turkuaz */
+    color: #213555; /* Koyu Lacivert */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #213555; /* Koyu Lacivert */
+    color: #F5EFE7; /* Krem Beyaz */
+    margin-top: 20px;
+    border-top: 5px solid #D8C4B6; /* Açık Turkuaz */
+}
